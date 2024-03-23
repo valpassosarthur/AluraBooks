@@ -1,0 +1,33 @@
+.quadradoazul{
+  width: 100vw;
+  height: 215px;
+  gap: 0px;
+  opacity: 75%;
+  background-color: rgb(57, 57, 241);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--branco)
+    
+}
+.quadradoazul__elementos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    
+}
+.quadradoazul__pesquisa{
+    width: Fixed (380px)px;
+   height: Fixed (44px)px;
+   top: 139px;
+   left: 24px;
+   padding: 10px 24px 10px 24px;
+   gap: 10px;
+   border-radius: 24px;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 21px;
+   border: 1px solid rgba(255, 255, 255, 1)
+}
