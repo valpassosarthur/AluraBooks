@@ -32,7 +32,34 @@
   color: var(--branco);
   background: url(../imagens/Lupa.svg) no-repeat;
   background-position: 0.5em;
-  
 
+}
 
+@media screen and (min-width: 1024px){
+    .banner{
+        padding: 100px;
+    }
+    .banner__titulo{
+        font-size: 36px;
+    }
+    .banner__pesquisa{
+        width: 40%;
+    }
+    .banner__pesquisa::placeholder{
+        background-position: 7em;
+    }
+    
+
+    
+}
+
+@media screen and (min-width: 1728px){
+    .banner__pesquisa{
+        width: 35%;
+    }
+
+    .banner{
+        padding: 6em;
+    }
+    
 }
